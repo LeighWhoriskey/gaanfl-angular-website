@@ -9,9 +9,9 @@ Single Page Application (SPA): Built with Angular, ensuring smooth navigation an
 
 ## Technology Stack
 Frontend Framework:
-Angular (vX.X) for building a dynamic and reactive user interface.
+Angular for building a dynamic and reactive user interface.
 Styling:
-CSS3 and Angular Material for a modern and responsive design.
+Bootstrap for a modern and responsive design.
 API Integration:
 Fetches live data from a backend API or a public data source.
 
