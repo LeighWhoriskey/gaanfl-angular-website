@@ -1,0 +1,19 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.input-container label{
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.input-container input{
+    flex-grow: 1;
+}
+
+.round-container{
+    display: flex;
+    justify-content: space-between;
+    width: 33.33%;
+}

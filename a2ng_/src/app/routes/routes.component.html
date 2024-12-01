@@ -1,0 +1,42 @@
+<h1>Routes</h1>
+
+<table class="table">
+  <thead>
+    <th>route</th>
+    <th>discription</th>
+    <th>URL</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/teams</td>
+      <td>GET teams</td>
+      <td><a href="http://localhost:3000/teams">http://localhost:3000/teams</a></td>
+      <button class='btn btn-primary active' (click)="onTeams()">GET</button>
+    </tr>
+    <tr>
+        <td>/players</td>
+        <td>GET players</td>
+        <td><a href="http://localhost:3000/players">http://localhost:3000/players</a></td>
+        <button class='btn btn-primary active' (click)="onPlayers()">GET</button>
+    </tr>
+    <tr>
+        <td>/results</td>
+        <td>GET results</td>
+        <td><a href="http://localhost:3000/results">http://localhost:3000/results</a></td>
+        <button class='btn btn-primary active' (click)="onResults()">GET</button>
+    </tr>
+    <tr>
+        <td>/results/1</td>
+        <td>GET results by division</td>
+        <td><a href="http://localhost:3000/results/1">http://localhost:3000/results/1</a></td>
+        <button class='btn btn-primary active' (click)="onResultsDiv()">GET</button>
+    </tr>
+  </tbody>
+</table>
+
+<p>JSON data</p>
+<pre id='textareaJSON' rows="15" cols="150" >{{textArea | json}}</pre>
+<div style="display: flex; justify-content: center;">
+    <footer class="footer">&#169;L00156477 Web Framwork Development 2024</footer>
+</div>

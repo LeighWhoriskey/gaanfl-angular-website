@@ -1,0 +1,25 @@
+<h1>Players</h1>
+<select (change)="onDropdownChange($event)" class="form-select">
+    <option value = "All" selected>All...</option>
+    @for(name of teamName; track name.id){
+        <option value="{{name.name}}">{{name.name}}</option>
+    }
+</select>
+
+<table class="table">
+    <thead>
+        <th>Team</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Matches</th>
+    </thead>
+    <tbody> 
+        @for(player of filteredData; track player.id){
+            <tr><td><img src="./assets/logos/{{ player.teamName }}.png" width="20" />{{player.teamName}}</td>
+                <td>{{player.name}} (#{{player.squadNumber}})</td>
+                <td>{{player.age}}</td>
+                <td>{{player.matches}}</td>
+            </tr>
+        }
+    </tbody>
+</table>

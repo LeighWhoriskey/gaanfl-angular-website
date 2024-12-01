@@ -1,0 +1,23 @@
+<h1>Stats</h1>
+<hr>
+<form [formGroup]="dropdownForm">
+<select FormControlName="dropdown" name="rounds" id="rounds" (change)="onDropdownChange($event)" class="form-select" >
+
+    <option value="Team">Select a team...</option>
+    @for(team of teamNames; track team.id){
+        <option value="{{team.name}}">{{team.name}}</option>
+    }
+</select>
+</form>
+
+<h2>{{matchScores}}</h2>
+<div id="matchSVG"></div>
+<hr>
+<h2>{{form}}</h2>
+<div id="formSVG"></div>
+
+
+
+<div style="display: flex; justify-content: center;">
+    <footer class="footer">&#169;L00156477 Web Framwork Development 2024</footer>
+</div>

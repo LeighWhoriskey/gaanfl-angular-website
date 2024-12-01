@@ -1,0 +1,17 @@
+<h1>Login</h1>
+
+<form [formGroup]="loginForm">
+  <div class="form-group">
+    <p>Email address</p>
+    <input type="text" formControlName="email" name="email" />
+    <p>Password</p>
+    <input type="password" formControlName="password" name="password" />
+  </div>
+  <div class="form-group">
+    <button class="btn btn-primary active"(click)="onSubmit()">Login</button>
+  </div>
+</form>
+
+<div style="display: flex; justify-content: center">
+  <footer class="footer">&#169;L00156477 Web Framwork Development 2024</footer>
+</div>
