@@ -1,4 +1,4 @@
-###GAA NFL Angular Website 🏐🏈
+### GAA NFL Angular Website 🏐🏈
 An Angular-based web application providing comprehensive information about the GAA National Football League (NFL). This project offers an interactive and dynamic interface for exploring league information, including teams, fixtures, results, and standings.
 
 ##Features
